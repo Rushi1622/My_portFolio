@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_PORTFOLIO</title>
+
+    <!-- This links for Typed.js -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- -------------------fontawsome------------------ -->
+    <script src="https://kit.fontawesome.com/cf1b6a6268.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+
+        <nav>
+            <div class="left">MY_PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact </a></li>
+
+
+
+                </ul>
+
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey ! MY name is <span class="purple">Rushikesh</span>
+                <div>and I am a Passionate</div>
+                <!-- To move text Typed js -->
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="/rushi.png" alt="">
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <!-- =================== About section ========================= -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- about img -->
+                    <img class="r" src="/about.img.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p class="wow"> An enthusiastic engineering student. I am a self-driven individual with an ability
+                        to adapt to any situation, passionate about learning new things and highly optimistic with an
+                        aim to explore the best version of myself in order to work well with people in the industry.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <!-- this active tab take down in js -->
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>Java Development</span><br>Java Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>( Feb - March ) </span><br>Intership at Right Shift Infotech Ltd.</li>
+                            <li><span>( June - Current) </span><br>Intership At Hackveda Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019 - Percentage = 88.40%</span><br>Parimal High School,Latur </li>
+                            <li><span>2021 - Percentage = 94%</span><br>Dayanand Science college,Latur</li>
+                            <li><span>2025 - Cgpa = 7.82 </span><br>Sinhgad College of Enginnering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------- services content---------------- -->
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title  dj11 ph">My Services</h1>
+            <div class="services-list ">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have a strong foundation in web design, with a keen eye for aesthetics and user experience. My
+                        skills include creating responsive and visually appealing websites using HTML, CSS, and
+                        JavaScript. I am proficient in modern design principles and frameworks, ensuring that each
+                        website I develop is not only functional but also engaging for users. I focus on creating
+                        intuitive navigation, clean layouts, and interactive elements that enhance the overall user
+                        experience.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java Development</h2>
+                    <p>I have experience in building robust Java applications, including a stock trading app with
+                        features like real-time data processing and user authentication. I'm proficient in Java
+                        frameworks like Spring and Hibernate and committed to writing clean, efficient code.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae cupiditate blanditiis illo
+                        earum velit ab iste odit? Et, aut voluptas doloremque quaerat cum adipisci quisquam error rerum
+                        autem ad?
+                    </p>
+                    <a href="#">Learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------projects------------------------------ -->
+
+    <div id="project">
+        <div class="contaier dj1">
+            <h1 class="sub-title dj11">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/ss.png" alt="">
+                    <div class="layer">
+                        <h3>Sorting Visualizer</h3>
+                        <p>Developed a dynamic web-based sorting algorithm visualizer to illustrate complex sorting
+                            algorithms in real-time.
+                            The visualizer generate bar representation of data points and animates the sorting process
+                            providing an intuitive understanding of algorithmic mechanisms.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/a1 (1).png" alt="">
+                    <div class="layer">
+                        <h3>Amazone Clone</h3>
+                        <p>Developed a partial Amazon website clone with key e-commerce functionalities, including
+                            product listings, shopping cart, and user authentication. Implemented a responsive design to
+                            enhance user experience on various devices
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Calculator.png" alt="">
+                    <div class="layer">
+                        <h3>Fully Functioning Caculator</h3>
+                        <p> Developed a responsive web calculator using HTML, CSS, and JavaScript, featuring both basic
+                            and advanced mathematical functions.
+                            Created an interactive image gallery where images change on click using HTML, CSS, and
+                            JavaScript
+
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------contact me ------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle dj">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> rushiwakde100@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 9096871683</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rushi.wakde.98/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/rushi160300"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://github.com/Rushi1622"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rushikesh-wakde"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/Resume.pdf" Downlode class="btn btn2">Downlode CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea type="Message" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Rushikesh. Made by me <i class="fa-solid fa-heart"></i>__ </p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        // to add funtions as we tack opentab
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+
+            }
+            event.currentTarget.classList.add("active-link");
+
+
+            document.getElementById(tabname).classList.add("active-tab")
+
+
+
+
+
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer..', 'Java Developer..'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwmqQtIkrTBlZY3xOT5P1z7ARZA_sQJYtR0RSycqUFP2b19pp2l2024gEsD6ESLkqzm5g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Message sent successfully!'
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
