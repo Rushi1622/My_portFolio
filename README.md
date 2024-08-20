@@ -21,3 +21,8 @@ A showcase of my work in web design and Java development, featuring responsive w
 
 
 #WebDesign #JavaDevelopment #HTML #CSS #JavaScript #Java #Spring #Hibernate #ResponsiveDesign #Portfolio #SoftwareDevelopment #StockTradingApp #FullStack
+#portfolio
+#new web 
+#glowingtext
+#ONLINE
+#webpage
